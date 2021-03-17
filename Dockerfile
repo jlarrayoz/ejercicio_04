@@ -5,7 +5,7 @@ USER newuser
 
 WORKDIR /home/javaapp/myapp
 
-COPY ./src/passwordapi.jar
+COPY ./src/passwordapi.jar .
 
 MAINTAINER Juan Larrayoz
 EXPOSE 8080

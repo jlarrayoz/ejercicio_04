@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-slim
 
 RUN useradd -ms /bin/bash javaapp
-USER newuser
+USER javaapp
 
 WORKDIR /home/javaapp/myapp
 

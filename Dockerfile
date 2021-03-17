@@ -4,7 +4,7 @@ RUN useradd -ms /bin/bash javaapp
 USER newuser
 
 WORKDIR /home/javaapp
-MKDIR myapp
+RUN mkdir myapp
 
 COPY ./src/passwordapi.jar ./myapp
 
